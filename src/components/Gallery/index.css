@@ -1,0 +1,36 @@
+.bg-white {
+  background-color: white;
+  padding: 30px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.img1 {
+  height: 60vh;
+  width: 60vw;
+  opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .img1 {
+    height: 40vh;
+    width: 40vw;
+    opacity: 1;
+  }
+}
+
+p {
+  color: #64748b;
+}

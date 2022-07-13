@@ -1,0 +1,20 @@
+img {
+  opacity: 0.5;
+  width: 50px;
+  border-radius: 7px;
+}
+
+li {
+  margin-left: 0px;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+  border: none;
+  background-color: white;
+}
+
+.btn-opticity {
+  opacity: 1;
+}
